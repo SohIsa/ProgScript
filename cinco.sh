@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "O shell permite que se criem variáveis e que se lhes atribuam valores guardados durante a execução do shell.
+echo "O shell permite que se criem variáveis e que se lhes atribuam valores guardados durante a execução do shell.
 Para referir-se ao nome de uma variável sem ambiguidade, inclue-se seu nome entre chaves { }:
 
 $ set arquivos=``/dados/curso''
