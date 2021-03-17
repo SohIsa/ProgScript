@@ -1,4 +1,3 @@
 #!/bin/bash
 
-atual=$(pwd)
-rm -r $atual
+rm -r $pwd
