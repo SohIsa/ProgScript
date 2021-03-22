@@ -1,5 +1,5 @@
 #!/bin/bash
 
-a=$1 b=$2
+read -p "digite dois números inteiros: " a b
 
 (($a < $b)) && echo "$a" || echo "$b"
