@@ -1,4 +1,4 @@
-			P.S. 2020.2 Lista 10 - Grep e RegEx
+				P.S. 2020.2 Lista 10 - Grep e RegEx
 
 *** Todas as soluções devem usar o comando grep com expressões regulares.
 
