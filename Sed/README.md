@@ -1,4 +1,4 @@
-			P.S. 2020.2 Lista 11 - Sed
+				P.S. 2020.2 Lista 11 - Sed
 
 *** Todas as soluções devem usar o comando sed com expressões regulares.
 
