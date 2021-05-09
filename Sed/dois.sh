@@ -1,10 +1,15 @@
 #!/bin/bash
 
+#sed -E -e 's/[a-Z]//g' -e 's/[0-9]//g' -e 's/[!-/]/<?><?>/g'< README.md
+
 #a
 #sed -E 's/[a-Z]//g' < README.md
 
 #b
 #sed -E 's/[0-9]//g' < README.md
+
+#c
+#sed -E s/[!-/]/<?>/g'< README.md
 
 while true; do
 	read -p "Defina o que quer fazer seguido do nome do arquivo:
@@ -15,7 +20,8 @@ while true; do
 		 " opc
 	case ${opc} in
 		"a") sed -E 's/[a-Z]//g' < README.md ;;
-		
+		"b") sed -E 's/[0-9]//g' < README.md ;;
+		"c") sed -E 's/[!-/]/<?>/g'< README.md ;;
 		"d") break ;;
 	esac
 done
